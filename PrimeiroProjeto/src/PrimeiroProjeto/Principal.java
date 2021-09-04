@@ -23,6 +23,7 @@ public class Principal {
 		String nome = in.nextLine();
 		
 		//Exibir uma string usando printf tá bugado, desbuguei
+		// comentario feito no github para testar o merge
 		System.out.printf("Olá %s!\n", nome);
 
 	}
