@@ -16,14 +16,14 @@ public class Principal {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("Ol· amigo!\nQual È o seu nome?"); //Uso do println
+		System.out.println("Ol√° amigo!\nQual √© o seu nome?"); //Uso do println
 		
 		//Ler uma string do console usando a bliblioteca Scanner.
 		Scanner in  = new Scanner(System.in);
 		String nome = in.nextLine();
 		
-		//Exibir uma string usando printf t· bugado
-		System.out.printf("Ol· %s!\n", nome);
+		//Exibir uma string usando printf t√° bugado, desbuguei
+		System.out.printf("Ol√° %s!\n", nome);
 
 	}
 
